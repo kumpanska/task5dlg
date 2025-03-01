@@ -40,5 +40,10 @@ namespace task5dlg
                 this.BackColor = Color.Pink;
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("There's message for you: 'hello World!'","Message",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
     }
 }
