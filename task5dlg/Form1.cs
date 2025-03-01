@@ -16,16 +16,28 @@ namespace task5dlg
         {
             InitializeComponent();
         }
-       
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (this.Opacity == 1.0)
             {
                 this.Opacity = 0.5;
             }
-            else 
+            else
             {
                 this.Opacity = 1.0;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (this.BackColor == Color.Pink)
+            { 
+                this.BackColor = Color.Yellow; 
+            }
+            else
+            { 
+                this.BackColor = Color.Pink;
             }
         }
     }
