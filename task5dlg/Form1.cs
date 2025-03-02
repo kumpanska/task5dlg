@@ -45,5 +45,10 @@ namespace task5dlg
         {
             MessageBox.Show("There's message for you: 'hello World!'","Message",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
+
+        private void btnSetOfActions_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Я супермегакнопка,\nі цього мене не позбавиш!");
+        }
     }
 }
